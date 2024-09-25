@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(85, 218, 230);
+    margin: 0px;
+}
+
+.title{
+    text-align: center;
+    color: rgb(211, 230, 246);
+    padding: 10px;
+    color: #CCC;
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow:
+            3px 3px 3px #656565, -3px -3px 3px #656565,
+           -3px 3px 3px #656565,  3px -3px 3px #656565,
+            3px 0px 3px #656565, -3px -0px 3px #656565,
+            0px 3px 3px #656565,  0px -3px 3px #656565;
+    margin: 0;
+    border-bottom: 5px solid black;
+}
+
+.main{
+    padding-top: 5%;
+    display:flex;
+}
+
+.textbox{
+    padding-left: 3%;
+}
+
+.texts{
+    background-color: rgb(0227, 225, 225);
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.text{
+    padding-left: 15px;
+}
+
+.days{
+    background-color: rgb(0227, 225, 225);
+    border-radius: 10px;
+    width: 300px;
+    height: 600px;
+}
+
+.link,.link:hover,.link:visited{
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: inherit;
+}
+
+.days_link{
+    font-size: 20px;
+    line-height: 300%;
+}
+
+.p_text{
+    font-size: 120%;
+}
+
+#footer{
+    background-color: bisque;
+    height: 70px;
+    margin-top: 10px;
+}
