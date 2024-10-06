@@ -63,9 +63,9 @@ window.onload = function () {
         const indexButton = document.getElementById("button");
 
         const linkMarch1 = Array.from(links).find(link => link.innerText === "3/1");
-        linkMarch1.insertAdjacentHTML('beforebegin', '<a href="../days/0229.html">2/29</a><br>');
+        linkMarch1.insertAdjacentHTML('beforebegin', '<a href="guessing/days/0229.html">2/29</a><br>');
     
-        linkMarch1.insertAdjacentHTML('afterend', '<br><a href="../days/0302.html">3/2</a>');
+        linkMarch1.insertAdjacentHTML('afterend', '<br><a href="guessing/days/0302.html">3/2</a>');
         try{
             const indexButton = document.getElementById("button");
             indexButton.insertAdjacentHTML('beforebegin', '<button type="button" id="myButton" onclick="remove_localStorage()">リセット</button>');
@@ -106,7 +106,7 @@ window.onload = function () {
     try{
         const sequence = [
             '𝟎', '𝟳', '?', '𝟔𝟑', '𝟏𝟏𝟐', '𝟏𝟳𝟓', '𝟐𝟓𝟐', '𝟑𝟒𝟑', '𝟒𝟒𝟴',
-            '𝟓𝟔𝟳', '𝟳𝟎𝟎', '𝟴𝟒𝟳', '𝟏𝟎𝟎𝟴', '𝟏𝟏𝟳𝟔𝟳', '𝟏𝟑𝟳𝟐', '𝟏𝟓𝟳𝟓',
+            '𝟓𝟔𝟳', '𝟳𝟎𝟎', '𝟴𝟒𝟳', '𝟏𝟎𝟎𝟴', '𝟏𝟏𝟳𝟔', '𝟏𝟑𝟳𝟐', '𝟏𝟓𝟳𝟓',
             '𝟏𝟳𝟗𝟐', '𝟐𝟎𝟐𝟑', '𝟐𝟐𝟔𝟴', '𝟐𝟓𝟐𝟳', '𝟐𝟴𝟎𝟎', '𝟑𝟎𝟴𝟳',
             '𝟑𝟑𝟴𝟴', '𝟑𝟳𝟎𝟑', '𝟒𝟎𝟑𝟐', '𝟒𝟑𝟳𝟓', '𝟒𝟳𝟑𝟐', '𝟓𝟏𝟎𝟑',
             '𝟓𝟒𝟴𝟴', '𝟓𝟴𝟴𝟳', '𝟔𝟑𝟎𝟎', '𝟔𝟳𝟐𝟳', '𝟳𝟏𝟔𝟴', '𝟳𝟔𝟐𝟑',
