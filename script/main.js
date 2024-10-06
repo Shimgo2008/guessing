@@ -63,9 +63,13 @@ window.onload = function () {
         const indexButton = document.getElementById("button");
 
         const linkMarch1 = Array.from(links).find(link => link.innerText === "3/1");
-        linkMarch1.insertAdjacentHTML('beforebegin', '<a href="guessing/days/0229.html">2/29</a><br>');
-    
-        linkMarch1.insertAdjacentHTML('afterend', '<br><a href="guessing/days/0302.html">3/2</a>');
+        if (currentPage === 'index.html'){
+            linkMarch1.insertAdjacentHTML('beforebegin', '<a href="days/0229.html">2/29</a><br>');
+            linkMarch1.insertAdjacentHTML('afterend', '<br><a href="days/0302.html">3/2</a>');
+        }else{
+            linkMarch1.insertAdjacentHTML('beforebegin', '<a href="../days/0229.html">2/29</a><br>');
+            linkMarch1.insertAdjacentHTML('afterend', '<br><a href="../days/0302.html">3/2</a>');
+        }
         try{
             const indexButton = document.getElementById("button");
             indexButton.insertAdjacentHTML('beforebegin', '<button type="button" id="myButton" onclick="remove_localStorage()">リセット</button>');
